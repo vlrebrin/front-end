@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from "../Button/Button.jsx"
 import { useTelegram } from "../../hooks/useTelegram.js"
+import './Header.css'
 
 const Header = () => {
   //const tg = window.Telegram.WebApp;
@@ -10,7 +11,7 @@ const Header = () => {
   return (
     <div className='header'>
       <Button onClick={onClose}>Закрыть</Button>
-      <span className={user.username}>
+      <span className={'username'}>
         {user?.username}
       </span>      
     </div>
