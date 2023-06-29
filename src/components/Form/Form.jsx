@@ -47,9 +47,9 @@ const Form = () => {
   const onChangeSubject = (e) => {
     setSubject(e.target.value)
   }
-  //<div className='form'>
+
   return (
-    <div>
+    <div className='form'>
       <h3>Введите ваши данные</h3>
       <input
         className={'input'}
