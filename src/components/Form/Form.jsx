@@ -70,7 +70,7 @@ const Form = () => {
         value={subject}
         onChange={onChangeSubject}
       >
-        <option value={'Lega'}>Физ. лицо</option>
+        <option value={'physical'}>Физ. лицо</option>
         <option value={'Lega'}>Юр. лицо</option>
       </select>
     </div>
