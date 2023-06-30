@@ -16,7 +16,7 @@ function App() {
    tg.ready() 
   }, [])
   
-tg.BackButton.show()
+tg.BackButton.hide()
 
   // const onClose = () => {
   //   tg.close()
