@@ -14,7 +14,9 @@ function App() {
   
   useEffect(() => {
    tg.ready() 
-  },[])
+  }, [])
+  
+tg.BackButton.show()
 
   // const onClose = () => {
   //   tg.close()
